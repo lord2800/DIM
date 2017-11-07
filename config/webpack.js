@@ -49,7 +49,7 @@ module.exports = (env) => {
       contentBase: path.resolve(__dirname, './src'),
       publicPath: '/',
       https: true,
-      host: 'localhost',
+      host: '0.0.0.0',
       hot: false
     },
 
